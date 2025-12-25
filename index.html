@@ -3,69 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>YachtJet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <main>
-      <header>
-        <a href="./index.html">yachtjet</a>
-        <nav>
-          <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Yachts</a></li>
-            <li><a href="">Reviews</a></li>
+      <header class="header">
+        <div class="container header-container">
+          <a href="./index.html" class="yachtjet-link">yachtjet</a>
+          <nav class="nav-container">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Yachts</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Reviews</a></li>
+            </ul>
+          </nav>
+          <ul class="soz-list">
+            <li class="soz-item">
+              <a href="https://www.instagram.com/"
+                ><img src="./images/instagram.svg" alt="instagram"
+              /></a>
+            </li>
+            <li class="soz-item">
+              <a href="https://www.youtube.com/"
+                ><img src="./images/youtube.svg" alt="youtube"
+              /></a>
+            </li>
+            <li class="soz-item">
+              <a href="https://www.facebook.com/"
+                ><img src="./images/facebook.svg" alt="facebook"
+              /></a>
+            </li>
           </ul>
-        </nav>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/"
-              ><img src="./images/instagram.svg" alt="instagram"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/"
-              ><img src="./images/youtube.svg" alt="youtube"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/"
-              ><img src="./images/facebook.svg" alt="facebook"
-            /></a>
-          </li>
-        </ul>
+        </div>
       </header>
-      <section>
-        <h2>Benefits</h2>
-        <ul>
-          <li>
-            <h3>01</h3>
-            <p>Swimming and water sports: try your hand at water skiing</p>
-          </li>
-          <li>
-            <h3>02</h3>
-            <p>Fishing: try to catch your own dinner</p>
-          </li>
-          <li>
-            <h3>03</h3>
-            <p>
-              Sightseeing tours: take a shore or island tour, enjoy the views
-              and sunsets from the water
-            </p>
-          </li>
-          <li>
-            <h3>04</h3>
-            <p>
-              Rest and relaxation: read a book or listen to music while enjoying
-              the outdoor atmosphere.
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/benefits.jpg"
-          alt="benefits"
-          width="540"
-          height="424"
-        />
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits-title">Benefits</h2>
+          <div class="benefits-innr">
+            <ul class="benefits-list">
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">01</h3>
+                <p class="benefits-ite-text">
+                  Swimming and water sports: try your hand at water skiing
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">02</h3>
+                <p class="benefits-ite-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">03</h3>
+                <p class="benefits-ite-text">
+                  Sightseeing tours: take a shore or island tour, enjoy the
+                  views and sunsets from the water
+                </p>
+              </li>
+              <li class="benefits-item">
+                <h3 class="benefits-item-title">04</h3>
+                <p class="benefits-ite-text">
+                  Rest and relaxation: read a book or listen to music while
+                  enjoying the outdoor atmosphere.
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/benefits.jpg"
+              alt="benefits"
+              width="540"
+              height="424"
+              class="benefits-img"
+            />
+          </div>
+        </div>
       </section>
     </main>
   </body>
