@@ -43,9 +43,6 @@ img {
   border-radius: 8px;
   background-color: #fbfbfb;
   width: 1240px;
-  /* margin-top: 32px;
-  margin-left: 100px;
-  margin-right: 100px; */
   margin: 32px auto;
 }
 
@@ -94,6 +91,15 @@ img {
   color: #fbfbfb;
 }
 
+.nav-item:hover {
+  background: #1b414b;
+  cursor: pointer;
+}
+
+.nav-item:focus {
+  background: #1b414b;
+}
+
 .soz-list {
   display: flex;
   align-items: center;
@@ -113,6 +119,19 @@ img {
   /* padding-top: 150px;
   padding-bottom: 150px; */
   padding: 150px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-innr {
